@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 <div class="container">
-    <h4 class="grey-text text-darken-2 center">State Management</h4>
+    <h4 class="grey-text text-darken-2 center">Province Management</h4>
     
     {{-- Include the searh component with with title and route --}}
     @component('sys_mg.inc.search',['title' => 'State' , 'route' => 'states.search'])
@@ -18,7 +18,7 @@
                         <thead class="grey-text text-darken-2">
                             <tr>
                                 <th>ID</th>
-                                <th>State Name</th>
+                                <th>Province Name</th>
                                 <th>Created at</th>
                                 <th>Updated at</th>
                                 <th>Options</th>

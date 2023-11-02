@@ -82,12 +82,12 @@
                             <div class="input-field col s12 m6 l6 xl4 offset-xl2">
                                 <i class="material-icons prefix">grid_on</i>
                                 <select name="state">
-                                    <option value="" disabled >Choose a State</option>
+                                    <option value="" disabled >Choose a Province</option>
                                     @foreach($states as $state)
                                         <option value="{{$state->id}}" {{ old('state') ? 'selected' : '' }} {{ $employee->empState==$state ? 'selected' : '' }} >{{$state->state_name}}</option>
                                     @endforeach
                                 </select>
-                                <label>State</label>
+                                <label>Province</label>
                             </div>
                             <div class="input-field col s12 m6 l6 xl4">
                                 <i class="material-icons prefix">location_city</i>
