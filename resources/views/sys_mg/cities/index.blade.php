@@ -19,7 +19,7 @@
                             <tr>
                                 <th>ID</th>
                                 <th>City Name</th>
-                                <th>Zip Code</th>
+                                <th>Postal Code</th>
                                 <th>Created at</th>
                                 <th>Updated at</th>
                                 <th>Options</th>

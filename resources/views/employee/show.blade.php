@@ -30,7 +30,7 @@
                         <p class="pl-15"><span class="bold col s5 m4 l4 xl3">Phone :</span><span class="col m8 l8 xl9">{{$employee->phone}}</span></p>
                     </div>
                     <div class="row">
-                        <p class="pl-15"><span class="bold col s5 m4 l4 xl3">Zip Code :</span><span class="col m8 l8 xl9">{{$employee->empCity->zip_code}}</span></p>
+                        <p class="pl-15"><span class="bold col s5 m4 l4 xl3">Postal Code :</span><span class="col m8 l8 xl9">{{$employee->empCity->zip_code}}</span></p>
                     </div>
                     <div class="row">
                         <p class="pl-15"><span class="bold col s5 m4 l4 xl3">Department :</span><span class="col m8 l8 xl9">{{$employee->empDepartment->dept_name}}</span></p>

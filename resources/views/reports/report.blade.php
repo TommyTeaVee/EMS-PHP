@@ -30,7 +30,7 @@
                     <th>Name</th>
                     <th>Email</th>
                     <th>Phone</th>
-                    <th>Zip Code</th>
+                    <th>Postal Code</th>
                     <th>Country</th>
                     <th>Salary</th>
                     <th>City</th>
