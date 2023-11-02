@@ -50,7 +50,7 @@
                         <li>
                             <a href="/states" class="waves-effect waves-grey">
                             <i class="material-icons">grid_on</i>
-                                State
+                                Province
                             </a>
                         </li>
                         <li>

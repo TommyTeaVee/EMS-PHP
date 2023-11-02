@@ -54,7 +54,7 @@ class StatesController extends Controller
         $state = new State();
         $state->state_name = $request->input('state_name');
         $state->save();
-        return redirect('/states')->with('info','New State has been created!');
+        return redirect('/states')->with('info','New Province has been created!');
     }
 
     /**
@@ -96,7 +96,7 @@ class StatesController extends Controller
         $state = State::find($id);
         $state->state_name = $request->input('state_name');
         $state->save();
-        return redirect('/states')->with('info','Selected State has been Updated!');
+        return redirect('/states')->with('info','Selected Province has been Updated!');
     }
 
     /**
@@ -109,7 +109,7 @@ class StatesController extends Controller
     {
         $state = State::find($id);
         $state->delete();
-        return redirect('/states')->with('info','Selected State has been deleted!');
+        return redirect('/states')->with('info','Selected Province has been deleted!');
     }
 
     /**

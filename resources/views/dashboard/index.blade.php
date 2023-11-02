@@ -86,7 +86,7 @@
                     <div class="row">
                         <div class="col s7 xl7">
                             <i class="material-icons medium white-text pt-5">grid_on</i>
-                            <h6 class="no-padding txt-md">States</h6>
+                            <h6 class="no-padding txt-md">Provinces</h6>
                         </div>
                         <div class="col s5 xl5">
                             <p class="no-padding center mt txt-sm">Total({{$t_states}})</p>
